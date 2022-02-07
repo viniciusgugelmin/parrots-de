@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background: #EEF9BF;
+}
+
+.de-header {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #75B79E;
+    max-width: clamp(312px, 80%, calc((6*117px) + (5*34px)));
+    margin: 40px auto 47px auto;
+}
+
+.de-header__text {
+    font-size: 56px;
+    margin: 0;
+    text-align: center;
+}
+
+.de-board {
+    max-width: clamp(260px, 70%, calc((6*117px) + (5*34px)));
+    margin: auto;
+    display: flex;
+    gap: 34px;
+    flex-wrap: wrap;
+}
+
+.de-board__card {
+    width: 117px;
+    height: 146px;
+    position: relative;
+}
+
+.de-board__face {
+    width: 100%;
+    height: 100%;
+    background-color: #A7E9AF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all .5s;
+    transform-style: preserve-3d;
+}
+
+.de-board__face img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.de-board__front-face img {
+    padding: 24px 7px 22px 10px;
+}
+
+.de-board__back-face {
+    transform: rotateY(180deg);
+}
+
+.de-board__card--flipped .de-board__back-face, .de-board__card--matched .de-board__back-face {
+    transform: rotateY(0deg);
+}
+
+.de-board__card--flipped .de-board__front-face, .de-board__card--matched .de-board__front-face {
+    transform: rotateY(-180deg);
+}
+
+.de-board__card--matched {
+    animation: matchpoint 0.75s;
+}
+
+@keyframes matchpoint {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.de-time {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: red;
+    font-size: 24px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+@media (max-width: 769px) {
+    .de-header__text {
+        font-size: 36px;
+    }
+}
