@@ -61,7 +61,7 @@ const createCards = () => {
         card.classList.add('de-board__card');
         card.innerHTML = `
             <div class="de-board__face de-board__front-face">
-                <img src="../../assets/parrot.png" alt="Parrot">
+                <img src="./assets/parrot.png" alt="Parrot">
             </div>
             <div class="de-board__face de-board__back-face">
                 <img src="${cards[cardIndex].url}" alt="${cards[cardIndex].title}">
