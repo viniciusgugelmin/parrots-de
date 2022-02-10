@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/viniciusgugelmin/parrots">
+  <a href="https://github.com/viniciusgugelmin/parrots-de">
     <img src="info/readme.png" alt="readme-logo" width="80" height="80">
   </a>
 
@@ -8,15 +8,14 @@
   <p align="center">
     Parrots
     <br />
-    <a href="https://github.com/viniciusgugelmin/parrots"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/viniciusgugelmin/parrots-de"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/viniciusgugelmin/parrots/issues">Report Bug</a>
+    <a href="https://github.com/viniciusgugelmin/parrots-de/issues">Report Bug</a>
     ·
-    <a href="https://github.com/viniciusgugelmin/parrots/issues">Request Feature</a>
+    <a href="https://github.com/viniciusgugelmin/parrots-de/issues">Request Feature</a>
   </p>
 </p>
-
 
 <details open="open">
   <summary><h2 style="display: inline-block">Abstract</h2></summary>
@@ -30,17 +29,13 @@
   </ol>
 </details>
 
-
-
 ## About The Project
 
 Driven project - parrots
 
 ## Roadmap
 
-See the [open issues](https://github.com/viniciusgugelmin/parrots/issues) for a list of proposed features (and known issues).
-
-
+See the [open issues](https://github.com/viniciusgugelmin/parrots-de/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
@@ -52,10 +47,8 @@ Any contributions you make are **greatly appreciated**.
 4. Push to the Branch (`git push origin feature/<featureName>`)
 5. Open a Pull Request
 
-
-
 ## Contact
 
 Vinícius Kruchelski Gugelmin - vinigugelmin@gmail.com
 
-Project Link: [https://github.com/viniciusgugelmin/parrots](https://github.com/viniciusgugelmin/parrots)
+Project Link: [https://github.com/viniciusgugelmin/parrots-de](https://github.com/viniciusgugelmin/parrots-de)
